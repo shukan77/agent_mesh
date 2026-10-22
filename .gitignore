@@ -5,3 +5,4 @@ notes
 .DS_Store
 .pytest_cache
 .cache/
+scratch.py

@@ -6,3 +6,4 @@ notes
 .pytest_cache
 .cache/
 scratch.py
+ollama_scratch.py

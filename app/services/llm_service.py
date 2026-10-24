@@ -50,7 +50,7 @@ class LLMService:
         json_mode: bool,
         temperature: float,
     ) -> str:
-        ...
+        raise NotImplementedError("Groq provider is not written yet")
 
     async def _call_gemini(
         self,
@@ -59,4 +59,4 @@ class LLMService:
         json_mode: bool,
         temperature: float,
     ) -> str:
-        ...
+        raise NotImplementedError("Gemini provider is not written yet")
